@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+    <a href="index.html">
+        <img class="logo" src="./assets/amazon_logo_dark.png" alt="" width="100px">
+    </a>
+    <div class="signin-container">
+        <h1 class="signin-title">Sign In</h1>
+        <h5 class="input-lable">Email Or Mobile Phone Number</h5>
+        <input type="text" class="userMob">
+        <button onclick="openPopUpOfSignIn()">Countinue</button>
+        <p class="sigin-condition">By Countinuing, You Agree To Amazom's <span>Conditions Of Use</span> And
+            <span>Privacy Notice</span></p>
+        <p class="signin-help">&#9656 <span>Need Help</span></p>
+        <hr>
+        <h4>Buying For Work?</h4>
+        <p class="signin-business"><span>Shop On Amazom Business</span></p>
+    </div>
+    <div class="sign-bottom">
+        <hr>
+        <p>New To Amazon?</p>
+        <hr>
+    </div>
+    <a href="signup.html">
+        <button class="signin-signup-btn">Create Your Amazom Account</button>
+    </a>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Conditions Of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+        </div>
+        <p class="footer-copyright">© 1996-2024, Amazon.Com, Inc. Or Its Affiliates</p>
+    </footer>
+
+    <div class="pop-up">
+        <img src="./assets/emoji1.jpg" alt="">
+        <h2>Currently, Unable To Sign In</h2>
+        <h4>Try Later</h4>
+        <button type="button" onclick="closePopUp()">Ok</button>
+    </div>
+    <div class="pop-up-fields">
+        <img src="./assets/disclaimer.png" alt="">
+        <h2>All Fields Are Mandatory</h2>
+        <h4>Try Again</h4>
+        <button type="button" onclick="closePopUp()">Ok</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
