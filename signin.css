@@ -119,7 +119,7 @@ footer{
     border: 2px solid #ededed;
     font-size: 12px;
 }
-footerv .footer-links{
+footer .footer-links{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -213,4 +213,29 @@ footer .footer-links a{
     visibility: visible;
     top: 45%;
     transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+    .pop-up{
+       width: 80%;
+    }
+    .pop-up h2{
+        font-size: medium;
+    }
+    .pop-up h4{
+        font-size: medium;
+    }
+
+    .pop-up-fields{
+        width: 80%;
+    }
+    .pop-up-fields h2{
+        font-size: medium;
+    }
+    .pop-up-fields h4{
+        font-size: medium;
+    }
 }
